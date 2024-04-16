@@ -19,7 +19,7 @@ function ender() {
                 <div className = {styles.details}>
                     <h3>Project: Ender 3 Improvements</h3>
                     <h3>Overview:</h3>
-                    <p>Independant RCA conducted to drastically improve print quality of Creality Ender 3 V3 KE. Both Mechanical and Structural solutions were implementing after meticulous data collection of the problem source. </p>
+                    <p>Independant RCA conducted to drastically improve print quality of Creality Ender 3 V3 KE. Both Mechanical and Structural solutions were implemented after meticulous data collection of the problem source. </p>
                     <h3>Skills:</h3>
                     <p>FEA, Root-Cause Analysis, CAD, Data collection/analysis, GD&T</p>
                 </div>

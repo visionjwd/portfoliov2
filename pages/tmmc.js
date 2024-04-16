@@ -66,7 +66,7 @@ function tmmc() {
             </div>
             <div className = {styles.flex2}>
                 <h2>Result</h2>
-                <p><span>Awards: </span>Systematic Engineering Award by the staff at TMMC, recognized for it's practical applicability in the actual plant.</p>
+                <p><span>Awards: </span>Systematic Engineering Award by the staff at TMMC, recognized for it&#39;s practical applicability in the actual plant.</p>
             </div>
         </div>
     </div>
