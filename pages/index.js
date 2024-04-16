@@ -108,7 +108,7 @@ export default function Home() {
       <div className = {styles.work}>
       <div className = {styles.workTitle}>
           <h1>MEDIA</h1>
-          <Link href = "https://jwdcreativehouse.ca" target = "_blank">
+          <Link href = "https://jwdcreativehouse.ca" target = "_blank" rel="noreferrer" >
             <button id = "herobutton">MORE</button>
           </Link>
       </div>
@@ -118,7 +118,7 @@ export default function Home() {
               <div className = {styles.overlay}>
               <h3>JWD Creative House</h3>
               <p>Media business founded by me, providing quality digital media and marketing services to businesses and events across GTA</p>
-              <Link href = "https://jwdcreativehouse.ca" target = "_blank">
+              <Link href = "https://jwdcreativehouse.ca" target = "_blank" rel="noreferrer" >
                 <button id = "herobutton">VISIT</button>
               </Link>
               </div>
@@ -129,7 +129,7 @@ export default function Home() {
               <div className = {styles.overlay}>
               <h3>VisionJWD</h3>
               <p>Personal Photo/Video showcase, capturing adventures in my life. Also a lot of cars ^^</p>
-              <Link href = "https://instagram.com/visionjwd" target = "_blank">
+              <Link href = "https://instagram.com/visionjwd" target = "_blank" rel="noreferrer" >
                 <button id = "herobutton">VISIT</button>
               </Link>
               </div>

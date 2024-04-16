@@ -23,7 +23,7 @@ function tmmc() {
                     <p>A YOLOv8 trained OpenCV model applicable to detecting body hole coverage states on a simulated auto assembly line at Toyota Canada. The detection model has a 94% accuracy rate accross 3 different lighting condition closely immitating the environment at the factory.</p>
                     <h3>Skills:</h3>
                     <p>OpenCV, Python, Data Collection, Project Management</p>
-                    <Link href = "https://colab.research.google.com/drive/1yZ7atIrTI75b2AXXO9ZwbUu21SROY5pa?usp=sharing" target = "_blank">
+                    <Link href = "https://colab.research.google.com/drive/1yZ7atIrTI75b2AXXO9ZwbUu21SROY5pa?usp=sharing" target = "_blank" rel="noreferrer" >
                       View
                     </Link>
                 </div>

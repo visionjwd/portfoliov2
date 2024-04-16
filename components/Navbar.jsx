@@ -50,13 +50,13 @@ function Navbar() {
         </div>
         <div className = {styles.desktopnav}>
         <div className = {styles.half} id = {styles.navlinks}>
-            <Link href = 'https://instagram.com/visionjwd' target = "_blank">
+            <Link href = 'https://instagram.com/visionjwd' target = "_blank" rel="noreferrer" >
                 <InstagramIcon/>
             </Link>
-            <Link href = 'https://Linkedin.com/in/junwoooh/' target = "_blank">
+            <Link href = 'https://Linkedin.com/in/junwoooh/' target = "_blank" rel="noreferrer" >
                 <LinkedInIcon/>
             </Link> 
-            <Link href = 'https://jwdcreativehouse.ca' target = "_blank">
+            <Link href = 'https://jwdcreativehouse.ca' target = "_blank" rel="noreferrer" >
                 <CameraAltOutlinedIcon/>
             </Link>
         </div>

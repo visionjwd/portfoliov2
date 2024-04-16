@@ -73,7 +73,7 @@ function projects() {
             </div>
           </div>
           <div className = {styles.flex2} id = {styles.v}>
-              <Link href = 'https://jwdcreativehouse.ca'target = "_blank" className = {styles.website} id = {styles.jwd}>
+              <Link href = 'https://jwdcreativehouse.ca'target = "_blank" rel="noreferrer" className = {styles.website} id = {styles.jwd}>
                   <h3>JWD Creative House</h3>
                   <VisibilityIcon/>
               </Link>
