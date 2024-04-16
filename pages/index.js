@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Junwoo's Website</title>
+        <title>Junwoo&#39;s Website</title>
         <meta name="description" content="Junwoo's webspace, feel free to explore" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
