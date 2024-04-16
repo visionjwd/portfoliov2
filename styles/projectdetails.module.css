@@ -1,0 +1,89 @@
+.main{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    height: 50vh;
+    width: 90%;
+    padding: 0 5%;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.2) 30%), url('../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.overview{
+    height: 100%;
+    width: 90%;
+    padding: 2% 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.half{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    width: 90%;
+    height: 100%;
+    padding: 3% 3%;
+    border-radius: 15px;
+    background: #110C18;
+    background-size: cover;
+    background-position: center;
+}
+.image{
+    width: 90%;
+    border-radius: 15px;
+}
+.flex1{
+    flex: 40%;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex2{
+    flex: 60%;
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+}
+.overview span{
+    color: red;
+}
+.projectImage{
+    width: 70%;
+    border-radius: 15px;
+    margin: 7% 2%;
+}
+.video{
+    width: 90%;
+    aspect-ratio: 16 / 9;
+}
+@media only screen and (max-width: 800px){
+    .overview{
+        flex-direction: column;
+        align-items: center;
+    }
+    #flipped{
+        flex-direction: column-reverse;
+    }
+}

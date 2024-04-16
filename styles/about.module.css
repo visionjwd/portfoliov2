@@ -1,0 +1,56 @@
+.main{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutHero{
+    width: 80%;
+    height: 60vh;
+    padding: 5% 10%;
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 40%),url('../assets/projectbg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.aboutDescription{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.half{
+    width: 100%;
+    height: 110%;
+    padding: 5% 5%;
+}
+#cimg{
+    display:inherit;
+    align-items: center;
+    justify-content: center;
+}
+.contactimg{
+    width: 70%;
+    height: 40vw;
+    border-radius: 30px;
+    background: url('../assets/portrait.jpg');
+    background-size: cover;
+    background-position: center;
+}
+@media only screen and (max-width: 850px){
+    .aboutDescription{
+        flex-direction: column;
+    }
+    .half{
+        width: 85%;
+    }
+    .contactimg{
+        height: 80vw;
+    }
+}

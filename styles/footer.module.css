@@ -1,0 +1,75 @@
+.main{
+    width: 100%;
+    height: 100%;
+}
+.contact{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(18,0,47,0) 50%, rgba(0,0,0,1) 100%),url('../assets/background2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.flex{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footermain{
+    width: 100%;
+    height: 10vh;
+    padding-bottom: 20px;
+    background: var(--primary);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footermain p{
+    color: var(--text);
+}
+.footer{
+    width: 95%;
+    height: 95%;
+    border-radius: 10px;
+    background: #110C18;
+    box-shadow: 0px 0px 8px white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footerLogo{
+    font-family: "bd-brick", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    justify-self: center;
+    margin-left: 8%;
+}
+.wrap, .text{
+    flex: 50%;
+}
+.image{
+    content: var(--junwoo);
+    width: 100px;
+    height: auto;
+    margin-left: 8%;
+}
+.text p{
+    width: 90%;
+    text-align: right;
+    font-size: 10px;
+}
+@media only screen and (max-width: 850px){
+    .contact{
+        height: 60vh;
+        flex-direction: column;
+    }
+}

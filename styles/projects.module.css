@@ -1,0 +1,107 @@
+.main{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero{
+    width: 80%;
+    height: 60vh;
+    padding: 5% 10%;
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 40%), url('../assets/projectbg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.projectContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.projectSection{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#web{
+    height: 95vh;
+}
+#id2{
+    height: 40vh;
+}
+.flexvertical{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex1{
+    flex: 40%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.flex2{
+    flex: 60%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#v{
+    flex-direction: column;
+}
+.website{
+    height: 80%;
+    width: 80%;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 4%, rgba(99,0,72,0.5032606792717087) 34%, rgba(182,0,132,0) 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 10% 10%;
+    align-items: flex-start;
+    justify-content: flex-end;
+    
+}
+.website:hover{
+    transform: scale(1.02);
+}
+#jwd{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 4%, rgba(182,0,132,0) 36%), url('../assets/jwdweb.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#junwoo{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 4%, rgba(182,0,132,0) 36%), url('../assets/junwoo.jpg');
+    background-position: center;
+    background-size: cover;
+}
+@media only screen and (max-width: 850px){
+    .projectSection{
+        flex-direction: column;
+    }
+    .projectSection{
+        height: 110vh;
+    }
+    .flexvertical{
+        width: 90%;
+        height: 90%;
+    }
+}

@@ -1,0 +1,149 @@
+.primarywrapper{
+    width:100%;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    position: fixed;
+}
+.desktopnav{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    align-self: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    top:0;
+    background: linear-gradient(180deg,rgba(0,0,0,.8) 0%, rgba(0,0,0,0) 70%)
+}
+.half{
+    height: 100px;
+    padding: 12px 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.imagecenter{
+    position: absolute;
+    align-items: center;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+}
+.large{
+    width: 600px;
+    height: 600px;
+}
+#menuButton svg{
+    font-size: 40px;
+    transiton: all 0.3s ease;
+}
+#open #menuButton svg{
+    transform: rotate(45deg);
+}
+.half a{
+    margin: 2% 10%;
+}
+.desktopnav svg{
+    font-size: 30px;
+}
+#desktopLogo{
+    font-family: "bd-brick", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 45px;
+    margin-top: 30%;
+    z-index: 999;
+    transition: all 0.1s ease-out;
+}
+#mobileLogo{
+    display: none;
+}
+.menuOpen{
+    top:0;
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    //background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(18,0,47,1) 57%, rgba(17,0,60,0) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(110,9,0,0.8) 57%, rgba(0,0,0,0) 100%);
+    animation: fade-in .5s ease;
+}
+.menuHalf{
+    height: 80%;
+    width: 30vw;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-family: "pf-uniform", sans-serif;
+    font-size: 45px;
+    animation: fade-in 1s ease;
+}
+
+#close .menuOpen{
+    animation: fade-out 1s ease;
+    display:none;
+}
+
+@media only screen and (max-width: 1200px){
+    #mobileLogo{
+        display: block;
+    }
+    .imagecenter{
+        display: none;
+    }
+    .menuHalf{
+        font-size: 35px;
+        width: 35vw;
+        justify-content: center;
+        padding-left: 3%;
+    }
+    #desktopLogo{
+        margin-top:12%;
+    }
+
+}
+@media only screen and (max-width: 800px){
+    #navlinks{
+        display:none;
+    }
+    .menuOpen{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .menuHalf{
+        width: 50%;
+        height: 15%;
+        justify-content: center;
+        padding: none;
+        font-size: 25px;
+    }
+}
+@keyframes fade-in{
+    0%{
+        transform: translateY(100%);
+        opacity: 0%;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 100%;
+    }
+  }
+@keyframes fade-out{
+    0%{
+        display: flex;
+        opacity: 100%;
+    }
+    100%{
+        transform: translateY(100%);
+        opacity: 0%;
+    }
+}
