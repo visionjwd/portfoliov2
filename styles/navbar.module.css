@@ -50,14 +50,14 @@
     font-size: 30px;
 }
 #desktopLogo{
+    will-change: transform;
     font-family: "bd-brick", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 45px;
     margin-top: 30%;
     z-index: 999;
-    transition: all 0.1s ease-out;
-    will-change: transform;
+    //transition: all 0.1s ease-out;
 }
 #mobileLogo{
     display: none;

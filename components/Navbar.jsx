@@ -1,8 +1,8 @@
-'use client';
+'use client'
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
+import { useWillChange } from "framer-motion"
 import styles from '../styles/navbar.module.css'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -13,6 +13,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 
 function Navbar() {
+  const willChange = useWillChange();
   const { scrollYProgress } = useScroll();
   const pathname = usePathname();
   const[scaleValue, setScale] = useState(4.5);
@@ -62,7 +63,7 @@ function Navbar() {
         </div>
         <div className = {styles.imagecenter}>
         <Link href = '/'>
-             <motion.h1 style={{scale, translateY: position}} priority alt = '/' id = {styles.desktopLogo}>JUNWOO</motion.h1>
+             <motion.h1 style={{scale, translateY: position, willChange}} priority alt = '/' id = {styles.desktopLogo}>JUNWOO</motion.h1>
         </Link>
         </div>
         <div className = {styles.half} id = {styles.mobileLogo}>
