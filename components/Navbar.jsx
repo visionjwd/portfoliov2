@@ -1,4 +1,4 @@
-
+'use client';
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import Link from 'next/link'
@@ -15,8 +15,8 @@ import { motion, useScroll, useTransform } from "framer-motion";
 function Navbar() {
   const { scrollYProgress } = useScroll();
   const pathname = usePathname();
-  const[scaleValue, setScale] = useState(1);
-  const[positionValue, setPosition] = useState(0);
+  const[scaleValue, setScale] = useState(4.5);
+  const[positionValue, setPosition] = useState(300);
   let scale = useTransform(scrollYProgress, [0, .25], [scaleValue, 1]);
   let position = useTransform(scrollYProgress, [0, .25], [positionValue, 0]);
   
