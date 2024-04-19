@@ -1,5 +1,5 @@
 import React from 'react'
-import hexapodimg from '../assets/hexapod.jpg'
+import fmcad from '../assets/uwfm.jpg'
 import styles from '../styles/projectdetails.module.css'
 
 function uwfm() {
@@ -10,22 +10,20 @@ function uwfm() {
     </div>
     <div className = {styles.overview}>
         <div className = {styles.half}>
-            <img src = {hexapodimg.src} className = {styles.image}/>
+            <img src = {fmcad.src} className = {styles.image}/>
         </div>
         <div className = {styles.half}>
             <div className = {styles.details}>
-                <h3>Project: Hexapod</h3>
+                <h3>Project: UWFM Rear Wing support relocation</h3>
                 <h3>Overview:</h3>
-                <p>3D printed hexapod powered by ESP32 and MG996R servos, controlled by a PS4 controller through an open source library for ESP32. Inverse Kinematics algorithm using DH parameter was implemented in C++, with PCA9685 PWM motor controllers used to control the servos. Future plans include a gyroscope to dynamically balance on uneven surfaces. </p>
+                <p>Relocated the rear wing fixture design in order to meet the regulation guidelines. Performed Static FEA and simple CFD to ensure minimal disturbance to rear wing airflow and similar structural rigidity. </p>
                 <h3>Skills:</h3>
-                <p>FEA, Load Analysis, Design Analysis, System Integration, C++, Circuit Analysis</p>
+                <p>FEA, Load Analysis, Design Analysis, CFD, Design Integration</p>
             </div>
         </div>
     </div>
     <div className = {styles.overview}>
         <div className = {styles.flex2}>
-            <h2>MECHANICAL DESIGN</h2>
-            <p>- </p>
         </div>
         <div className = {styles.flex1}>
 

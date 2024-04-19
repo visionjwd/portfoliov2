@@ -16,9 +16,9 @@ function hexapod() {
                 <div className = {styles.details}>
                     <h3>Project: Hexapod</h3>
                     <h3>Overview:</h3>
-                    <p>3D printed hexapod powered by ESP32 and MG996R servos, controlled by a PS4 controller through an open source library for ESP32. Inverse Kinematics algorithm using DH parameter was implemented in C++, with PCA9685 PWM motor controllers used to control the servos. Future plans include a gyroscope to dynamically balance on uneven surfaces. </p>
+                    <p>3D printed hexapod powered by ESP32 and MG996R servos, controlled by a PS4 controller through an open source library for ESP32. Inverse Kinematics algorithm was implemented in C++, with PCA9685 PWM motor controllers used to control the servos. Future plans include a gyroscope to dynamically balance on uneven surfaces. </p>
                     <h3>Skills:</h3>
-                    <p>FEA, Load Analysis, Design Analysis, System Integration, C++, Circuit Analysis</p>
+                    <p>FEA, Load Analysis, Design Analysis, System Integration, C++, Circuit Analysis, Inverse Kinematics</p>
                 </div>
             </div>
         </div>
