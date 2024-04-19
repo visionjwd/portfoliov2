@@ -63,7 +63,7 @@ function Navbar() {
         </div>
         <div className = {styles.imagecenter}>
         <Link href = '/'>
-             <motion.h1 style={{scale, translateY: position, willChange}} priority alt = '/' id = {styles.desktopLogo}>JUNWOO</motion.h1>
+             <motion.h1 style={{willChange, scale, translateY: position}} priority alt = '/' id = {styles.desktopLogo}>JUNWOO</motion.h1>
         </Link>
         </div>
         <div className = {styles.half} id = {styles.mobileLogo}>
