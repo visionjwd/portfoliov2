@@ -4,6 +4,12 @@ import styles from '../styles/about.module.css'
 function about() {
   return (
     <div className = {styles.main}>
+      <Head>
+        <title>About Me</title>
+        <meta name="description" content="About Me" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className = {styles.aboutHero}>
           <h2>hi! welcome to my webspace</h2>
       </div>

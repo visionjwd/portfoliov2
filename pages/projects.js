@@ -14,6 +14,12 @@ function projects() {
 
   return (
     <div className = {styles.main}>
+      <Head>
+        <title>Projects by Junwoo</title>
+        <meta name="description" content="Projects" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className = {styles.hero}>
         <h2>My Projects so far:</h2>
         <p>Click on any to see details</p>

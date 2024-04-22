@@ -9,6 +9,12 @@ import Link from 'next/link'
 function tmmc() {
   return (
     <div className = {styles.main}>
+        <Head>
+        <title>Projects - TMMC ML Dev</title>
+        <meta name="description" content="Project Details - TMMC Machine Learning Dev" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
         <div className = {styles.title}>
             <h2>Toyota Assembly Line Body Hole Detection</h2>
         </div>

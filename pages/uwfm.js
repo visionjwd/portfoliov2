@@ -5,6 +5,12 @@ import styles from '../styles/projectdetails.module.css'
 function uwfm() {
   return (
     <div className = {styles.main}>
+        <Head>
+        <title>Projects - UWFM Aero</title>
+        <meta name="description" content="Project Details - UWFM Aerodynamics/Composites Development" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <div className = {styles.title}>
         <h2>UWFM Aero</h2>
     </div>

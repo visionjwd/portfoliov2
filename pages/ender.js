@@ -8,6 +8,12 @@ import styles from '../styles/projectdetails.module.css'
 function ender() {
   return (
     <div className = {styles.main}>
+        <Head>
+        <title>Projects - Ender 3</title>
+        <meta name="description" content="Project Details - Ender 3 KE" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
         <div className = {styles.title}>
             <h2>ENDER 3 V3 KE</h2>
         </div>

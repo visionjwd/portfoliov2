@@ -5,6 +5,12 @@ import styles from '../styles/projectdetails.module.css'
 function hexapod() {
   return (
     <div className = {styles.main}>
+        <Head>
+        <title>Projects - Hexapod</title>
+        <meta name="description" content="Project Details - Hexapod" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
         <div className = {styles.title}>
             <h2>Hexapod</h2>
         </div>
