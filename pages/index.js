@@ -73,7 +73,7 @@ export default function Home() {
                 skill4 = "PM"
             />
             <ProjectCard
-                bgi = {uwfm.src}
+                bgi = {uwpic.src}
                 Title = "UWFM Aero"
                 description = "Aerodynamic development and fixture design for Univeristy of Waterloo Formula Motorsport team"
                 whereto = '/uwfm'
