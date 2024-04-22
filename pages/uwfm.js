@@ -1,6 +1,7 @@
 import React from 'react'
 import fmcad from '../assets/uwfm.jpg'
 import styles from '../styles/projectdetails.module.css'
+import Head from 'next/head'
 
 function uwfm() {
   return (

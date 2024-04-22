@@ -5,6 +5,7 @@ import dataset from '../assets/dataset.jpg'
 import cv from '../assets/py.jpg'
 import styles from '../styles/projectdetails.module.css'
 import Link from 'next/link'
+import Head from 'next/head'
 
 function tmmc() {
   return (

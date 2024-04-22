@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/about.module.css'
+import Head from 'next/head'
 
 function about() {
   return (

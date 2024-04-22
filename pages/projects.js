@@ -8,7 +8,7 @@ import tmmc from '../assets/TMMC.jpg'
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import Bentodiv from '@/components/Bentodiv';
 import Link from 'next/link'
-
+import Head from 'next/head'
 
 function projects() {
 

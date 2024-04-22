@@ -1,6 +1,7 @@
 import React from 'react'
 import hexapodimg from '../assets/hexapod.jpg'
 import styles from '../styles/projectdetails.module.css'
+import Head from 'next/head'
 
 function wec() {
   return (

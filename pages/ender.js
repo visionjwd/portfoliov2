@@ -4,6 +4,7 @@ import analysis from '../assets/rootcause.jpg'
 import quali from '../assets/qualitycheck.jpg'
 import assembly from '../assets/assembly.png'
 import styles from '../styles/projectdetails.module.css'
+import Head from 'next/head'
 
 function ender() {
   return (
