@@ -16,16 +16,14 @@ function wec() {
             <div className = {styles.details}>
                 <h3>Project: Hexapod</h3>
                 <h3>Overview:</h3>
-                <p>3D printed hexapod powered by ESP32 and MG996R servos, controlled by a PS4 controller through an open source library for ESP32. Inverse Kinematics algorithm using DH parameter was implemented in C++, with PCA9685 PWM motor controllers used to control the servos. Future plans include a gyroscope to dynamically balance on uneven surfaces. </p>
+                <p>Arduino powered waste collection robot built in a single day from ideation to production as part of Waterloo Engineering Senior Competition 2023. With cost being part of the competition, cost benefit analysis was involved in order to produce the most suitable robot for the cheapest price. </p>
                 <h3>Skills:</h3>
-                <p>FEA, Load Analysis, Design Analysis, System Integration, C++, Circuit Analysis</p>
+                <p>Rapid Prototyping, Arduino, Cost Benefit Analysis, Python, Teamwork</p>
             </div>
         </div>
     </div>
     <div className = {styles.overview}>
         <div className = {styles.flex2}>
-            <h2>MECHANICAL DESIGN</h2>
-            <p>- </p>
         </div>
         <div className = {styles.flex1}>
 

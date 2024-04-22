@@ -16,7 +16,7 @@ function uwfm() {
             <div className = {styles.details}>
                 <h3>Project: UWFM Rear Wing support relocation</h3>
                 <h3>Overview:</h3>
-                <p>Relocated the rear wing fixture design in order to meet the regulation guidelines. Performed Static FEA and simple CFD to ensure minimal disturbance to rear wing airflow and similar structural rigidity. </p>
+                <p>Relocated the rear wing fixture design in order to meet the regulation guidelines. Performed Static FEA and simple CFD to ensure minimal disturbance to rear wing airflow and similar structural rigidity. Manufactured carbon fiber composite parts via vacuum resin method, along with creating 20+ drawings for tabs to be manufactured. </p>
                 <h3>Skills:</h3>
                 <p>FEA, Load Analysis, Design Analysis, CFD, Design Integration</p>
             </div>

@@ -5,6 +5,7 @@ import scrollgif from '../assets/scroll.gif'
 import Link from "next/link";
 import hexapod from '../assets/hexapod.jpg'
 import ender from '../assets/v3ke.jpg'
+import uwpic from '../assets/uwfm.jpg'
 import tmmc from '../assets/TMMC.jpg'
 import ProjectCard from "@/components/ProjectCard";
 
@@ -72,13 +73,14 @@ export default function Home() {
                 skill4 = "PM"
             />
             <ProjectCard
-                bgi = {hexapod.src}
-                Title = "Hexapod"
-                whereto = '/hexapod'
+                bgi = {uwfm.src}
+                Title = "UWFM Aero"
+                description = "Aerodynamic development and fixture design for Univeristy of Waterloo Formula Motorsport team"
+                whereto = '/uwfm'
                 skill1 = "CAD"
-                skill2 = "Root-Cause"
-                skill3 = "Material Testing"
-                skill4 = "FEA"
+                skill2 = "FEA"
+                skill3 = "CFD"
+                skill4 = "Composites"
             />
           </div>
           <div className = {styles.skillfull}>

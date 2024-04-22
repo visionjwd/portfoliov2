@@ -192,4 +192,7 @@
   .right{
     flex: 65%;
   }
+  .image{
+    display: none;
+  }
 }
