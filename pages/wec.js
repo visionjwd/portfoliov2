@@ -1,5 +1,5 @@
 import React from 'react'
-import wecimg from '../assets/wec.jpg'
+import wecimg from '../assets/WEC.jpg'
 import styles from '../styles/projectdetails.module.css'
 import Head from 'next/head'
 
