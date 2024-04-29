@@ -1,5 +1,5 @@
 import React from 'react'
-import hexapodimg from '../assets/hexapod.jpg'
+import wecimg from '../assets/wec.jpg'
 import styles from '../styles/projectdetails.module.css'
 import Head from 'next/head'
 
@@ -17,11 +17,11 @@ function wec() {
     </div>
     <div className = {styles.overview}>
         <div className = {styles.half}>
-            <img src = {hexapodimg.src} className = {styles.image}/>
+            <img src = {wecimg.src} className = {styles.image}/>
         </div>
         <div className = {styles.half}>
             <div className = {styles.details}>
-                <h3>Project: Hexapod</h3>
+                <h3>Project: Waste Collection Robot</h3>
                 <h3>Overview:</h3>
                 <p>Arduino powered waste collection robot built in a single day from ideation to production as part of Waterloo Engineering Senior Competition 2023. With cost being part of the competition, cost benefit analysis was involved in order to produce the most suitable robot for the cheapest price. </p>
                 <h3>Skills:</h3>
