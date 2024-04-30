@@ -1,5 +1,8 @@
 import React from 'react'
 import hexapodimg from '../assets/hexapod.jpg'
+import ik from '../assets/ik.jpg'
+import hardware from '../assets/hardware.jpg'
+import mech from '../assets/mechdesign.jpg'
 import styles from '../styles/projectdetails.module.css'
 import Head from 'next/head'
 
@@ -37,12 +40,12 @@ function hexapod() {
                 <p>As well as these, proper tolerance values for a transitional fit was utilized. This stage also involved measuring my 3D printer&#39;s dimensional accuracy values, therefore each attachment&#39;s tolerance values were adjusted .25mm in the x direction and -0.1mm in the y direction accordingly.</p>
             </div>
             <div className = {styles.flex1}>
-
+                <img src = {mech.src} className = {styles.image}/>
             </div>
         </div>
         <div className = {styles.overview}>
             <div className = {styles.flex1}>
-
+                <img src = {hardware.src} className = {styles.image}/>
             </div>
             <div className = {styles.flex2}>
                 <h2>HARDWARE CONFIGURATION</h2>
@@ -58,7 +61,7 @@ function hexapod() {
                 <p>Utilizing PlatformIO over Arduino IDE for firmware development was a superior choice as it made it easier to follow a more traditional C++ programming environment, as well as being able to utilize trusted libraries for PS4 controller input and output.</p>
             </div>
             <div className = {styles.flex1}>
-
+                <img src = {ik.src} className = {styles.image}/>
             </div>
         </div>
     </div>
