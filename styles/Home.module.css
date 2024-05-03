@@ -169,6 +169,12 @@
   }
 }
 @media only screen and (max-width: 850px){
+  .hero{
+    height: 110vh;
+  }
+  .heroContainer{
+    height: 35vh;
+  }
   .workTitle h1{
     font-size:30px;
   }
