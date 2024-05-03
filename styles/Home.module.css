@@ -170,7 +170,7 @@
 }
 @media only screen and (max-width: 850px){
   .hero{
-    height: 110vh;
+    height: 100vh;
   }
   .heroContainer{
     height: 35vh;
